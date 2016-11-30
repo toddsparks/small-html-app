@@ -63,43 +63,55 @@
 }
 
 .first-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 .second-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 .third-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 .fourth-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 .fifth-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 .sixth-shirt {
+  max-width: 100%;
   width: 355px;
-  height: 300px;
+  height: auto;;
   margin-top: 10px;
+  display: block;
 }
 
 
-@media(min-width: 450px) {
+@media(min-width: 530px) {
   .first-shirt {
     width: 250px;
     height: 200px;
