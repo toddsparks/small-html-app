@@ -59,8 +59,7 @@
 }
 
 .nextTo {
-  align-items: center;
-  position: relative;
+
 }
 
 .first-shirt {
@@ -107,6 +106,17 @@
     padding-right: 10px;
   }
   .second-shirt {
+    width: 250px;
+    height: 200px;
+  }
+
+  .fourth-shirt {
+    width: 250px;
+    height: 200px;
+    padding-right: 10px;
+  }
+
+  .fifth-shirt {
     width: 250px;
     height: 200px;
   }
