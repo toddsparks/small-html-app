@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .top-section {
     width: 100%;
     height: 100vh;
@@ -65,7 +67,7 @@
 .first-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
@@ -73,7 +75,7 @@
 .second-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
@@ -81,7 +83,7 @@
 .third-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
@@ -89,7 +91,7 @@
 .fourth-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
@@ -97,7 +99,7 @@
 .fifth-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
@@ -105,11 +107,54 @@
 .sixth-shirt {
   max-width: 100%;
   width: 355px;
-  height: auto;;
+  height: auto;
   margin-top: 10px;
   display: block;
 }
 
+.seventh-shirt {
+  max-width: 100%;
+  width: 355px;
+  height: auto;
+  margin-top: 10px;
+  display: block;
+}
+
+.eighth-shirt {
+  max-width: 100%;
+  width: 355px;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.coming-soon {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 100px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-family: 'Roboto', sans-serif;
+}
+.first-know {
+  text-align: center;
+  font-size: .8em;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+}
+
+.email-address {
+  font-size: .8em;
+  text-align: left;
+  border: 5px black;
+  font-family: 'Roboto', sans-serif;
+  color: gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 @media(min-width: 530px) {
   .first-shirt {
