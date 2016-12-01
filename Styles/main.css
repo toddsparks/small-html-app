@@ -12,6 +12,14 @@
     position: relative;
 }
 
+.bottom-section {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
 
 .svg-logo {
     width:200px;
@@ -56,7 +64,7 @@
   margin-right: 10px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  position: relative;;
   align-items: center;
 }
 
@@ -139,21 +147,65 @@
 .first-know {
   text-align: center;
   font-size: .8em;
-  margin-top: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
   letter-spacing: .08em;
   font-family: 'Roboto', sans-serif;
   color: gray;
 }
 
+.email-box {
+  border: 2px black;
+  border-style: solid;
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .email-address {
   font-size: .8em;
-  text-align: left;
-  border: 5px black;
   font-family: 'Roboto', sans-serif;
   color: gray;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.submit {
+  font-size: .8em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-bottom: 60px;
+}
+
+.this-class {
+  color: #fff;
+  font-size: .8em;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  margin-top: 100px;
+}
+
+.second-cta {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+}
+
+.second-cta:hover {
+  color: #f36;
+  border-bottom: 1px solid #f36;
+}
+
+.marketplace {
+  color: white;
 }
 
 @media(min-width: 530px) {
@@ -178,7 +230,22 @@
     height: 200px;
   }
 
+  .seventh-shirt {
+    width: 250px;
+    height: 200px;
+    padding-right: 10px;
+  }
+
+  .eighth-shirt {
+    width: 250px;
+    height: 200px;
+  }
+
   .nextTo {
     display: flex;
   }
+}
+
+@media(min-width: 700px) {
+
 }
